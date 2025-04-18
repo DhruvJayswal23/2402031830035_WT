@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('images/image.png');
+    background-size: cover;     /* or "contain" or specific size like 100% 300px */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  header {
+    background-color: #a1a16f;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-nav {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login,
+  .register {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+  
+  .hero {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/African_savanna.jpg/1280px-African_savanna.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  footer {
+    background-color: #a1a16f;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    color: black;
+    margin-left: 15px;
+    font-size: 1.2rem;
+  }
